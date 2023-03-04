@@ -1,0 +1,21 @@
+<header>
+  <div class="container">
+    <a  routerLink="/" class="logo">{{book.name}}</a>
+  </div>
+</header>
+<section class="content">
+  <div class="image">
+    <img [src]="book.imageUrl" [alt]="book.name">
+  </div>
+  <div class="contain">
+    <div class="name">
+      {{book.name}}
+    </div>
+    <div class="description">
+      {{book.description}}
+    </div>
+    <span>Рейтинг:</span>
+    <star-rating [value]="book.star" [totalstars]="5" checkedcolor="#FFC700" uncheckedcolor="#D9D9D9" size="32px" [readonly]="false" class="star"></star-rating>
+    <button class="btn btn-primary">Оставить отзыв</button>
+  </div>
+</section>

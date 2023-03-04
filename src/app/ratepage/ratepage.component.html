@@ -1,0 +1,14 @@
+<header>
+
+  <div class="conteiner">
+    <a  routerLink="/" class="logo">{{book.name}}</a>
+  </div>
+</header>
+<fieldset [formGroup]="fullfeedbackControl">
+  <input formControlName="feedback">
+  <star-rating [value]="book.star" [totalstars]="5" checkedcolor="red" formControlName="starating" uncheckedcolor="black" size="24px" [readonly]="false" ></star-rating>
+</fieldset>
+<button (click)="addfeedback()">Оставить отзыв</button>
+
+
+
