@@ -1,4 +1,4 @@
-a{
+a {
   color: black;
   text-decoration: none;
 }
@@ -7,7 +7,7 @@ a{
   color: white;
 }
 
-.conteiner{
+.conteiner {
   font-weight: 700;
   font-family: Ubuntu, serif;
   padding-left: 3%;
@@ -28,7 +28,7 @@ a{
   padding-top: 1%;
 }
 
-.card{
+.crd1 {
   background-color: #B40001;
   border-radius: 14px;
   margin: 2%;
@@ -36,27 +36,31 @@ a{
   width: 235px;
 }
 
-.up-card{
+.up-card {
   border-radius: 14px 14px 0 0;
   margin: 0 auto;
   height: 315px;
   width: 235px;
 }
 
-.content{
+.content {
   margin-top: 0;
-  text-align: center;
   padding-left: 3%;
   padding-bottom: 1.5%;
   border-radius: 0 0 14px 14px;
   background-color: #B40001;
   font-family: 'Ubuntu';
   color: white;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .home-page {
   display: flex;
 }
+
+.column {
+  display: inline-flex;
+}
+
 
 

@@ -1,14 +1,20 @@
 <header>
-
-  <div class="conteiner">
-    <a  routerLink="/" class="logo">{{book.name}}</a>
-  </div>
+  <nav class="navbar sticky-top navbar-light conteiner">
+    <a class="navbar-brand logo" routerLink="/">{{book.name}}</a>
+  </nav>
 </header>
-<fieldset [formGroup]="fullfeedbackControl">
-  <input formControlName="feedback">
-  <star-rating [value]="book.star" [totalstars]="5" checkedcolor="red" formControlName="starating" uncheckedcolor="black" size="24px" [readonly]="false" ></star-rating>
-</fieldset>
-<button (click)="addfeedback()">Оставить отзыв</button>
-
-
+<section>
+  <div class="container cntnt">
+    <div class="rait">
+      <star-rating [value]="book.star" [totalstars]="5" checkedcolor="#FFC700" formControlName="starating"
+                   uncheckedcolor="#D9D9D9" size="80px" class="star" [readonly]="false"></star-rating>
+        <button (click)="addfeedback()" class="btn">Оставить отзыв</button>
+    </div>
+    <div class="form">
+      <fieldset [formGroup]="fullfeedbackControl">
+        <input formControlName="feedback" placeholder="Введите текст...">
+      </fieldset>
+    </div>
+  </div>
+</section>
 

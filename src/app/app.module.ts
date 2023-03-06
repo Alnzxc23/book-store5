@@ -7,14 +7,17 @@ import { HomeComponent } from './home/home.component';
 import { BookPageComponent } from './book-page/book-page.component';
 import {RatingModule} from "ng-starrating";
 import { RatepageComponent } from './ratepage/ratepage.component';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms'
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { FeedbacktableComponent } from './feedbacktable/feedbacktable.component'
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
     BookPageComponent,
-    RatepageComponent
+    RatepageComponent,
+    FeedbacktableComponent,
+
 
   ],
   imports: [
