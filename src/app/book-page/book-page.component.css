@@ -10,15 +10,19 @@
 }
 
 .logo {
-  font-size: 52px;
+  font-size: 3vw;
   color: white;
   text-decoration: none;
 }
 
+section{
+  margin: 5% 0 10% 7%;
+}
+
 .content {
   display: flex;
-  margin: 5% 25% 0 7%;
-  height: 79vh;
+  width: 85vw;
+
 }
 
 .image {
@@ -27,6 +31,7 @@
 
 .name {
   font-size: 48px;
+  font-weight: 600;
 }
 
 .contain {
@@ -35,9 +40,9 @@
 
 button {
   margin-right: 0;
-  display: flex;
   border-radius: 14px;
   height: 5%;
+  display: flex;
   border: none;
   background-color: #B40001;
   color: white;
@@ -52,7 +57,6 @@ span {
 
 .description {
   font-size: 22px;
-  height: 60%;
 }
 
 .rat {
@@ -64,7 +68,7 @@ span {
 }
 
 img {
-  height: 34em;
-  width: 25em;
+  height: 70vh;
+  width: 100%;
   border-radius: 14px;
 }

@@ -3,6 +3,7 @@ a {
   text-decoration: none;
 }
 
+
 .logo {
   color: white;
 }
@@ -11,7 +12,7 @@ a {
   font-weight: 700;
   font-family: Ubuntu, serif;
   padding-left: 3%;
-  font-size: 52px;
+  font-size: 3vw;
   background-color: #730000;
   margin: 0 auto;
   display: flex;
@@ -54,13 +55,6 @@ a {
   font-size: 14px;
 }
 
-.home-page {
-  display: flex;
+.img {
+  width: 100%;
 }
-
-.column {
-  display: inline-flex;
-}
-
-
-

@@ -7,12 +7,12 @@
   <div class="container cntnt">
     <div class="rait">
       <star-rating [value]="book.star" [totalstars]="5" checkedcolor="#FFC700" formControlName="starating"
-                   uncheckedcolor="#D9D9D9" size="80px" class="star" [readonly]="false"></star-rating>
-        <button (click)="addfeedback()" class="btn">Оставить отзыв</button>
+                   uncheckedcolor="#D9D9D9" size="" class="star" [readonly]="false"></star-rating><!--я без понятия как их адаптировать-->
+      <button (click)="addfeedback()" class="">Оставить отзыв</button>
     </div>
     <div class="form">
       <fieldset [formGroup]="fullfeedbackControl">
-        <input formControlName="feedback" placeholder="Введите текст...">
+        <textarea formControlName="feedback" placeholder="Введите текст..."></textarea> <!--с текст ареа тоже разберись-->
       </fieldset>
     </div>
   </div>
